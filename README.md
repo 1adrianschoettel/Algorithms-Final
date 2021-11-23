@@ -47,6 +47,10 @@ When a customer enters our app, they will be welcomed and asked the following:
   as soon as possible.
   
 # Extra Information about other algorithms  
+
+This GitHub repository contains 3 files apart from this one: 
+1. Main interface: The code that the customer would use to order
+2. 
   
 One of the other two algorithms we used is the Greedy algorithm.
 
@@ -54,3 +58,13 @@ It’s functionality is to provide us with the minimum amount of lockers needed 
 It will not be user-oriented because it is of no use to the user, however, it’s very useful for us though as it will save us a lot of money 
 but it only needs to be used once. It is important to mention that it must be updated and reused if we move to new locations or we want a different level of specificity (we want to have a locker close to every street instead of to every neighborhood). 
 This algorithm is configured by setting all the possible lockers and which neighborhoods they are connected to, and output is the minimum amount of lockers that covers all the neighborhoods. It doesn’t require any inputs. 
+
+# Credits
+
+The developers of this project are:
+Borja Martos
+Enrique Pérez Hernández
+Antón Martín Retoritillo
+Karl von Sanden
+Talal Shehadeh
+Adrian Schoettel
