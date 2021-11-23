@@ -60,6 +60,11 @@ It will not be user-oriented because it is of no use to the user, however, it’
 but it only needs to be used once. It is important to mention that it must be updated and reused if we move to new locations or we want a different level of specificity (we want to have a locker close to every street instead of to every neighborhood). 
 This algorithm is configured by setting all the possible lockers and which neighborhoods they are connected to, and output is the minimum amount of lockers that covers all the neighborhoods. It doesn’t require any inputs. 
 
+The algorithm used to find delivery routes is weighted graphs.
+
+The point of the weighted graphs is to provide us with the shortest path to deliver the packages to the subscribers. The nodes represent the homes to deliver the packages to and the arrows are the distances between the houses. Then you are able to calculate the shortest path from node A which represents the head kitchen to any of the other houses that ask for orders, that way our orders are delivered efficiently and no one has to receive cold food or their food late. Obviously
+this is for deliveries at home, if not, the same applies to deliver to the food lockers.
+
 # Credits
 
 The developers of this project are:
