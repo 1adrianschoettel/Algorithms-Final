@@ -50,9 +50,10 @@ When a customer enters our app, they will be welcomed and asked the following:
 
 This GitHub repository contains 3 files apart from this one: 
 1. Main interface: The code that the customer would use to order
-2. 
+2. Lockers: The algorithm used to position our lockers through Segovia
+3. Delivery: The algorithm to find the shortest path for delivering the orders.
   
-One of the other two algorithms we used is the Greedy algorithm.
+The algorithm used for positioning the lockers is the Greedy algorithm.
 
 It’s functionality is to provide us with the minimum amount of lockers needed to cover all the neighborhoods to maximize our efficiency.
 It will not be user-oriented because it is of no use to the user, however, it’s very useful for us though as it will save us a lot of money 
@@ -62,9 +63,10 @@ This algorithm is configured by setting all the possible lockers and which neigh
 # Credits
 
 The developers of this project are:
-Borja Martos
-Enrique Pérez Hernández
-Antón Martín Retoritillo
-Karl von Sanden
-Talal Shehadeh
-Adrian Schoettel
+
+- Borja Martos
+- Enrique Pérez Hernández
+- Antón Martín Retoritillo
+- Karl von Sanden
+- Talal Shehadeh
+- Adrian Schoettel
