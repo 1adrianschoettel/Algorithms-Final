@@ -22,8 +22,8 @@ To be able to run our program, make sure you have the following things installed
 To download the library type the following command:
 pip install heapq_max
 
-After having python installed in the correct versiona and loading the libraries, open the file
-gbs.py and run the program. It is important to mention that our code is divided in three sections:
+After having python installed in the correct version and loading the libraries, open the file
+main_interface.py and run the program. It is important to mention that our code is divided in three sections:
 
 1. The first one is user interface where they can order.
 2. Then we also pasted the algorithm we used to situate the food lockers in the most efficient spots.
