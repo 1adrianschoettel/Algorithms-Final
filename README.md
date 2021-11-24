@@ -26,7 +26,7 @@ After having python installed in the correct version and loading the libraries, 
 main_interface.py and run the program. It is important to mention that our code is divided in three sections:
 
 1. The first one is user interface where they can order.
-2. Then we also added the algorithm we used to situate the food lockers in the most efficient spots (lockers.py).
+2. Then we also added the algorithm we used to situate the food lockers in the most efficient spots (food_lockers.py).
 3. Finally, the third part is the algorithm that finds the shortest path when delivering through Segovia (delivery.py).
 
 # Usage
