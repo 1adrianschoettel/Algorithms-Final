@@ -31,6 +31,7 @@ gbs.py and run the program. It is important to mention that our code is divided 
 
 # Usage
 
+By running the main interface section, the user will experience our app.
 When a customer enters our app, they will be welcomed and asked the following:
 
 1. The type of subscription they want:
