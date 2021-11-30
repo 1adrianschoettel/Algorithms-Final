@@ -70,9 +70,9 @@ this is for deliveries at home, if not, the same applies to deliver to the food 
 
 The developers of this project are:
 
-- Borja Martos
-- Enrique Pérez Hernández
-- Antón Martín Retoritillo
-- Karl von Sanden
-- Talal Shehadeh
-- Adrian Schoettel
+- Martín Retortillo, Antón
+- Martos, Borja
+- Pérez Hernández, Enrique
+- Schoettel, Adrian
+- Shehadeh, Talal
+- von Sanden, Karl
