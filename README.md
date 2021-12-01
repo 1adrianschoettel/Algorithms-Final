@@ -10,7 +10,7 @@ Our app has three main functions:
 2. It allows customers to choose between two options between every meal of the day (breakfast,
 lunch and dinner), including a vegan option.
 
-3. It finds the shortest route to deliver to all the customers in Segovia at once.
+3. It finds the shortest route to deliver to a certain customer in Segovia from his actual location.
 
 
 # Installation
