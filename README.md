@@ -10,8 +10,9 @@ Our app has three main functions:
 2. It allows customers to choose between two options between every meal of the day (breakfast,
 lunch and dinner), including a vegan option.
 
-3. It finds the shortest route to deliver to a certain customer in Segovia from the delivery guy's
-actual location.
+3. It finds the shortest route to deliver to a certain road in Segovia (where the customer ordered from)
+from the delivery guy's actual location.
+
 
 
 # Installation
@@ -24,15 +25,16 @@ To download the library type the following command:
 pip install heapq_max
 
 After having python installed in the correct version and loading the libraries, open the file
-main_interface.py and run the program. It is important to mention that our code is divided in three sections:
+main_interface.py and run the program. It is important to mention that our code is divided in two sections:
 
-1. The first one is user interface where they can order.
-2. Then we also added the algorithm we used to situate the food lockers in the most efficient spots (food_lockers.py).
-3. Finally, the third part is the algorithm that finds the shortest path when delivering through Segovia (delivery.py).
+1. There is an algorithm we used to situate the food lockers in the most efficient spots (food_lockers.py).
+2. The other one is user interface where they can order. However, the first question ask the user if they are
+a customer or a delivery guy. If they are delivering, the algorithm will help them find the shortest path to their destination.
+If the user is a customer, it will proceed to the main interface of the app where they can order. (main_interface.py)
 
 # Usage
 
-By running the main interface section, the user will experience our app.
+By running the main interface section, the user selects they are a customer, they will experience our app.
 When a customer enters our app, they will be welcomed and asked the following:
 
 1. The type of subscription they want:
@@ -50,10 +52,9 @@ When a customer enters our app, they will be welcomed and asked the following:
   
 # Extra Information about other algorithms  
 
-This GitHub repository contains 3 files apart from this one: 
-1. Main interface: The code that the customer would use to order
-2. Lockers: The algorithm used to position our lockers through Segovia
-3. Delivery: The algorithm to find the shortest path for delivering the orders.
+This GitHub repository contains 2 files apart from this one: 
+1. Main interface: The code that the customer would use to order, or the delivery guy to find the shortest path.
+2. Lockers: The algorithm used to position our lockers through Segovia.
   
 The algorithm used for positioning the lockers is the Greedy algorithm.
 
