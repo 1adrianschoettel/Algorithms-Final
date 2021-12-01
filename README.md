@@ -65,8 +65,8 @@ This algorithm is configured by setting all the possible lockers and which neigh
 
 The algorithm used to find delivery routes is weighted graphs.
 
-The point of the weighted graphs is to provide us with the shortest path to deliver the packages to the subscribers. The nodes represent the homes to deliver the packages to and the arrows are the distances between the houses. Then you are able to calculate the shortest path from node A which represents the head kitchen to any of the other houses that ask for orders, that way our orders are delivered efficiently and no one has to receive cold food or their food late. Obviously
-this is for deliveries at home, if not, the same applies to deliver to the food lockers.
+The point of the weighted graphs is to provide us with the shortest path to deliver the packages to the subscribers. The nodes represent the closest streets possible to deliver the packages to and the arrows are the distances between the streets, in Kilometres. Then you are able to calculate the shortest path from a street to another street, that way our orders are delivered efficiently and no one has to receive cold food or their food late. Obviously
+this is for deliveries at home, if not, the same applies to deliver to the food lockers, but with different locations.
 
 # Credits
 
