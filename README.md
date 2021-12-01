@@ -50,7 +50,7 @@ When a customer enters our app, they will be welcomed and asked the following:
   The system will then print the menu the user has chosen and will inform that the order will be shipped 
   as soon as possible.
   
-# Extra Information about other algorithms  
+# Extra Information about the algorithms  
 
 This GitHub repository contains 2 files apart from this one: 
 1. Main interface: The code that the customer would use to order, or the delivery guy to find the shortest path.
